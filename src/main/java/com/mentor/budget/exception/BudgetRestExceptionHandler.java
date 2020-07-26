@@ -15,6 +15,7 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExcep
 import javax.validation.constraints.DecimalMin;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
+import java.io.IOException;
 import java.time.LocalDateTime;
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -55,6 +56,17 @@ public class BudgetRestExceptionHandler extends ResponseEntityExceptionHandler {
         log.error("Invalid input parameters :: " + ex);
         String bodyOfResponse = ex.getMessage();
         return new ResponseEntity("Input parameters are not matching pre-defined criteria", headers, status);
+    }
+
+    @ExceptionHandler(IOException.class)
+    protected ResponseEntity<Object> hanleIOException(
+            MethodArgumentNotValidException ex,
+            HttpHeaders headers,
+            HttpStatus status,
+            WebRequest request) {
+        log.error("File I/O error :: " + ex);
+        String bodyOfResponse = ex.getMessage();
+        return new ResponseEntity("Error in File I/O operation", headers, status);
     }
 
 }

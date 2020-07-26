@@ -7,5 +7,5 @@ import com.mentor.budget.model.SpendResponse;
  * Spend service interface, skeleton of Spend service
  */
 public interface SpendService {
-    public SpendResponse processSpendRequest(SpendRequest spendRequest);
+    public SpendResponse processSpendRequest(SpendRequest spendRequest) throws Exception;
 }

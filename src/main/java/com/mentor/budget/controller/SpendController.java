@@ -28,7 +28,7 @@ public class SpendController {
     private ApplicationContext context;
 
     @PostMapping("/spend")
-    public ResponseEntity<SpendResponse> processSpendRequest(@Valid @RequestBody SpendRequest spendRequest) {
+    public ResponseEntity<SpendResponse> processSpendRequest(@Valid @RequestBody SpendRequest spendRequest) throws Exception {
         log.debug("Processing spend request with  :: " + spendRequest);
         return new ResponseEntity<>(spendService.processSpendRequest(spendRequest), HttpStatus.OK);
     }
