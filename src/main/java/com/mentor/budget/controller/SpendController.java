@@ -2,12 +2,10 @@ package com.mentor.budget.controller;
 
 import com.mentor.budget.model.SpendRequest;
 import com.mentor.budget.model.SpendResponse;
-import com.mentor.budget.properties.Project;
 import com.mentor.budget.service.SpendService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
