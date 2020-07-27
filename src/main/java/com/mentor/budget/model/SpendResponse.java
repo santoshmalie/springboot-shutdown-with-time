@@ -9,6 +9,9 @@ import lombok.ToString;
 @ToString
 @AllArgsConstructor
 @NoArgsConstructor
+/**
+ * SpendResponse ::  Contains the response status Approved/Denied
+ */
 public class SpendResponse {
     private String requestStatus;
 }

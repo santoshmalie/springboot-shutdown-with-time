@@ -13,6 +13,9 @@ import javax.validation.constraints.NotNull;
 @ToString
 @NoArgsConstructor
 @AllArgsConstructor
+/**
+ * SpendRequst ::  request object for spend request
+ */
 public class SpendRequest {
     @NotNull(message = "teammateId must not be null")
     @DecimalMin("1.00")

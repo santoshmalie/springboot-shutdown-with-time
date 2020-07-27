@@ -20,6 +20,9 @@ import java.util.Map;
 @Slf4j
 @Order(Ordered.HIGHEST_PRECEDENCE)
 @ControllerAdvice
+/**
+ * Common exception handler class for Spend requests.
+ */
 public class BudgetRestExceptionHandler extends ResponseEntityExceptionHandler {
 
     @ExceptionHandler(SpendException.class)

@@ -1233,3 +1233,559 @@ java.io.FileNotFoundException: \Success\ESG (The system cannot find the path spe
 2020-07-27 01:45:39,085 INFO com.mentor.budget.service.impl.SpendServiceImpl [http-nio-0.0.0.0-8081-exec-2] Processing spend request. Project details :: Project(name=ESG, budget=10000.0)
 2020-07-27 01:45:44,583 DEBUG com.mentor.budget.service.impl.SpendServiceImpl [http-nio-0.0.0.0-8081-exec-2] Spend request approved. Request Details :: SpendRequest(teammateId=123.0, amount=2000.0, description=buy new laptop)
 2020-07-27 01:45:44,606 DEBUG com.mentor.budget.service.impl.SpendServiceImpl [http-nio-0.0.0.0-8081-exec-2] Updated budget  :: Project(name=ESG, budget=8000.0)
+2020-07-27 01:52:13,013 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-27 16:38:35,799 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] Starting BudgetManagerServiceApplication on yudhie with PID 23596 (A:\Code\mentor\Budget-Manager-Service\target\classes started by yudhie in A:\Code\mentor\Budget-Manager-Service)
+2020-07-27 16:38:35,805 DEBUG com.mentor.budget.app.BudgetManagerServiceApplication [main] Running with Spring Boot v2.2.9.RELEASE, Spring v5.2.8.RELEASE
+2020-07-27 16:38:35,808 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] No active profile set, falling back to default profiles: default
+2020-07-27 16:38:43,275 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2020-07-27 16:38:43,400 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-07-27 16:38:43,403 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-07-27 16:38:44,158 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-07-27 16:38:44,165 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 8112 ms
+2020-07-27 16:38:49,716 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-27 16:38:51,346 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-27 16:38:51,996 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-27 16:38:52,010 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] Started BudgetManagerServiceApplication in 18.587 seconds (JVM running for 24.603)
+2020-07-27 16:38:52,409 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] BUDGET-MANAGER-SERVICE STARTED
+2020-07-27 18:46:51,289 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-27 18:46:51,326 INFO com.mentor.budget.app.BudgetManagerServiceApplication [SpringContextShutdownHook] ####################### Shutitng down BUDGET-MANAGER-SERVICE STARTED
+2020-07-27 18:47:31,729 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] Starting BudgetManagerServiceApplication on yudhie with PID 6880 (A:\Code\mentor\Budget-Manager-Service\target\classes started by yudhie in A:\Code\mentor\Budget-Manager-Service)
+2020-07-27 18:47:31,736 DEBUG com.mentor.budget.app.BudgetManagerServiceApplication [main] Running with Spring Boot v2.2.9.RELEASE, Spring v5.2.8.RELEASE
+2020-07-27 18:47:31,760 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] No active profile set, falling back to default profiles: default
+2020-07-27 18:47:38,070 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2020-07-27 18:47:38,174 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-07-27 18:47:38,175 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-07-27 18:47:38,621 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-07-27 18:47:38,631 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 6622 ms
+2020-07-27 18:47:40,050 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-27 18:47:40,894 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-27 18:47:41,426 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-27 18:47:41,438 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] Started BudgetManagerServiceApplication in 12.4 seconds (JVM running for 16.804)
+2020-07-27 18:47:41,678 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] BUDGET-MANAGER-SERVICE STARTED
+2020-07-27 19:11:54,418 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-27 19:11:54,424 WARN com.mentor.budget.app.ShutdownBean [SpringContextShutdownHook] BUDGET-MANAGER-SERVICE, SHUTTING DOWN
+2020-07-27 19:12:25,227 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] Starting BudgetManagerServiceApplication on yudhie with PID 11992 (A:\Code\mentor\Budget-Manager-Service\target\classes started by yudhie in A:\Code\mentor\Budget-Manager-Service)
+2020-07-27 19:12:25,236 DEBUG com.mentor.budget.app.BudgetManagerServiceApplication [main] Running with Spring Boot v2.2.9.RELEASE, Spring v5.2.8.RELEASE
+2020-07-27 19:12:25,237 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] No active profile set, falling back to default profiles: default
+2020-07-27 19:12:31,113 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2020-07-27 19:12:31,161 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-07-27 19:12:31,161 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-07-27 19:12:31,492 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-07-27 19:12:31,493 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5939 ms
+2020-07-27 19:12:32,700 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-27 19:12:33,387 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-27 19:12:33,623 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-27 19:12:33,651 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] Started BudgetManagerServiceApplication in 10.389 seconds (JVM running for 13.108)
+2020-07-27 19:12:34,026 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] BUDGET-MANAGER-SERVICE STARTED
+2020-07-27 19:12:34,112 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-27 19:12:34,122 WARN com.mentor.budget.app.shutdown.ShutdownBean [SpringContextShutdownHook] BUDGET-MANAGER-SERVICE, SHUTTING DOWN
+2020-07-27 19:15:05,274 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] Starting BudgetManagerServiceApplication on yudhie with PID 22104 (A:\Code\mentor\Budget-Manager-Service\target\classes started by yudhie in A:\Code\mentor\Budget-Manager-Service)
+2020-07-27 19:15:05,291 DEBUG com.mentor.budget.app.BudgetManagerServiceApplication [main] Running with Spring Boot v2.2.9.RELEASE, Spring v5.2.8.RELEASE
+2020-07-27 19:15:05,292 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] No active profile set, falling back to default profiles: default
+2020-07-27 19:15:09,654 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2020-07-27 19:15:09,677 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-07-27 19:15:09,678 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-07-27 19:15:09,868 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-07-27 19:15:09,869 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4306 ms
+2020-07-27 19:15:10,574 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-27 19:15:11,053 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-27 19:15:11,183 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-27 19:15:11,193 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] Started BudgetManagerServiceApplication in 7.158 seconds (JVM running for 9.443)
+2020-07-27 19:15:11,367 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] BUDGET-MANAGER-SERVICE STARTED
+2020-07-27 19:15:11,376 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-27 19:15:11,378 WARN com.mentor.budget.app.shutdown.ShutdownBean [SpringContextShutdownHook] BUDGET-MANAGER-SERVICE, SHUTTING DOWN
+2020-07-27 19:15:42,379 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] Starting BudgetManagerServiceApplication on yudhie with PID 23856 (A:\Code\mentor\Budget-Manager-Service\target\classes started by yudhie in A:\Code\mentor\Budget-Manager-Service)
+2020-07-27 19:15:42,385 DEBUG com.mentor.budget.app.BudgetManagerServiceApplication [main] Running with Spring Boot v2.2.9.RELEASE, Spring v5.2.8.RELEASE
+2020-07-27 19:15:42,386 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] No active profile set, falling back to default profiles: default
+2020-07-27 19:15:46,703 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2020-07-27 19:15:46,727 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-07-27 19:15:46,727 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-07-27 19:15:46,926 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-07-27 19:15:46,926 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4352 ms
+2020-07-27 19:15:47,647 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-27 19:15:48,308 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-27 19:15:48,486 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-27 19:15:48,496 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] Started BudgetManagerServiceApplication in 7.721 seconds (JVM running for 9.328)
+2020-07-27 19:15:48,751 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] BUDGET-MANAGER-SERVICE STARTED
+2020-07-27 19:15:48,782 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-27 19:15:48,785 WARN com.mentor.budget.app.shutdown.ShutdownBean [SpringContextShutdownHook] BUDGET-MANAGER-SERVICE, SHUTTING DOWN
+2020-07-27 19:16:12,591 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] Starting BudgetManagerServiceApplication on yudhie with PID 25932 (A:\Code\mentor\Budget-Manager-Service\target\classes started by yudhie in A:\Code\mentor\Budget-Manager-Service)
+2020-07-27 19:16:12,597 DEBUG com.mentor.budget.app.BudgetManagerServiceApplication [main] Running with Spring Boot v2.2.9.RELEASE, Spring v5.2.8.RELEASE
+2020-07-27 19:16:12,598 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] No active profile set, falling back to default profiles: default
+2020-07-27 19:16:16,948 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2020-07-27 19:16:17,013 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-07-27 19:16:17,015 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-07-27 19:16:17,506 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-07-27 19:16:17,508 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4689 ms
+2020-07-27 19:16:19,195 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-27 19:16:20,344 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-27 19:16:20,630 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-27 19:16:20,649 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] Started BudgetManagerServiceApplication in 9.614 seconds (JVM running for 12.608)
+2020-07-27 19:16:21,030 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] BUDGET-MANAGER-SERVICE STARTED
+2020-07-27 19:18:57,170 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-27 19:18:57,176 WARN com.mentor.budget.app.shutdown.ShutdownBean [SpringContextShutdownHook] BUDGET-MANAGER-SERVICE, SHUTTING DOWN
+2020-07-27 19:19:17,105 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] Starting BudgetManagerServiceApplication on yudhie with PID 27456 (A:\Code\mentor\Budget-Manager-Service\target\classes started by yudhie in A:\Code\mentor\Budget-Manager-Service)
+2020-07-27 19:19:17,114 DEBUG com.mentor.budget.app.BudgetManagerServiceApplication [main] Running with Spring Boot v2.2.9.RELEASE, Spring v5.2.8.RELEASE
+2020-07-27 19:19:17,115 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] No active profile set, falling back to default profiles: default
+2020-07-27 19:19:21,826 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2020-07-27 19:19:21,905 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-07-27 19:19:21,907 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-07-27 19:19:22,611 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-07-27 19:19:22,613 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5276 ms
+2020-07-27 19:19:24,554 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-27 19:19:25,660 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-27 19:19:26,082 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-27 19:19:26,109 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] Started BudgetManagerServiceApplication in 10.646 seconds (JVM running for 14.354)
+2020-07-27 19:19:26,522 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] BUDGET-MANAGER-SERVICE STARTED
+2020-07-27 19:20:16,547 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-27 19:20:16,553 WARN com.mentor.budget.app.shutdown.ShutdownBean [SpringContextShutdownHook] BUDGET-MANAGER-SERVICE, SHUTTING DOWN
+2020-07-27 19:39:05,337 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] Starting BudgetManagerServiceApplication on yudhie with PID 11528 (A:\Code\mentor\Budget-Manager-Service\target\classes started by yudhie in A:\Code\mentor\Budget-Manager-Service)
+2020-07-27 19:39:05,344 DEBUG com.mentor.budget.app.BudgetManagerServiceApplication [main] Running with Spring Boot v2.2.9.RELEASE, Spring v5.2.8.RELEASE
+2020-07-27 19:39:05,345 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] No active profile set, falling back to default profiles: default
+2020-07-27 19:39:09,825 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2020-07-27 19:39:09,892 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-07-27 19:39:09,893 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-07-27 19:39:10,064 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-07-27 19:39:10,064 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4501 ms
+2020-07-27 19:39:10,740 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-27 19:39:11,241 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-27 19:39:11,389 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-27 19:39:11,399 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] Started BudgetManagerServiceApplication in 7.458 seconds (JVM running for 9.54)
+2020-07-27 19:39:11,549 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] BUDGET-MANAGER-SERVICE STARTED
+2020-07-27 19:39:29,983 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-0.0.0.0-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-27 19:39:29,985 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-0.0.0.0-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-07-27 19:39:30,049 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-0.0.0.0-8081-exec-1] Completed initialization in 63 ms
+2020-07-27 19:39:31,265 DEBUG com.mentor.budget.controller.SpendController [http-nio-0.0.0.0-8081-exec-1] Processing spend request with  :: SpendRequest(teammateId=123.0, amount=2000.0, description=buy new laptop)
+2020-07-27 19:39:35,006 INFO com.mentor.budget.service.impl.SpendServiceImpl [http-nio-0.0.0.0-8081-exec-1] Processing spend request. Project details :: Project(name=ESG, budget=10000.0)
+2020-07-27 19:39:38,763 DEBUG com.mentor.budget.service.impl.SpendServiceImpl [http-nio-0.0.0.0-8081-exec-1] Spend request approved. Request Details :: SpendRequest(teammateId=123.0, amount=2000.0, description=buy new laptop)
+2020-07-27 19:39:58,574 ERROR com.mentor.budget.exception.BudgetRestExceptionHandler [http-nio-0.0.0.0-8081-exec-1] Error in Budget API execution :: java.lang.IllegalArgumentException: Non-positive period.
+2020-07-27 19:40:35,768 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-27 19:40:35,774 WARN com.mentor.budget.app.shutdown.ShutdownBean [SpringContextShutdownHook] BUDGET-MANAGER-SERVICE, SHUTTING DOWN
+2020-07-27 19:41:40,533 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] Starting BudgetManagerServiceApplication on yudhie with PID 18680 (A:\Code\mentor\Budget-Manager-Service\target\classes started by yudhie in A:\Code\mentor\Budget-Manager-Service)
+2020-07-27 19:41:40,540 DEBUG com.mentor.budget.app.BudgetManagerServiceApplication [main] Running with Spring Boot v2.2.9.RELEASE, Spring v5.2.8.RELEASE
+2020-07-27 19:41:40,542 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] No active profile set, falling back to default profiles: default
+2020-07-27 19:41:45,211 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2020-07-27 19:41:45,277 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-07-27 19:41:45,279 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-07-27 19:41:45,767 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-07-27 19:41:45,768 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5047 ms
+2020-07-27 19:41:47,513 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-27 19:41:48,403 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-27 19:41:48,666 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-27 19:41:48,692 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] Started BudgetManagerServiceApplication in 9.497 seconds (JVM running for 11.149)
+2020-07-27 19:41:49,173 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] BUDGET-MANAGER-SERVICE STARTED
+2020-07-27 19:42:05,716 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-0.0.0.0-8081-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-27 19:42:05,719 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-0.0.0.0-8081-exec-2] Initializing Servlet 'dispatcherServlet'
+2020-07-27 19:42:05,760 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-0.0.0.0-8081-exec-2] Completed initialization in 40 ms
+2020-07-27 19:42:07,124 DEBUG com.mentor.budget.controller.SpendController [http-nio-0.0.0.0-8081-exec-2] Processing spend request with  :: SpendRequest(teammateId=123.0, amount=2000.0, description=buy new laptop)
+2020-07-27 19:42:08,655 INFO com.mentor.budget.service.impl.SpendServiceImpl [http-nio-0.0.0.0-8081-exec-2] Processing spend request. Project details :: Project(name=ESG, budget=10000.0)
+2020-07-27 19:42:10,445 DEBUG com.mentor.budget.service.impl.SpendServiceImpl [http-nio-0.0.0.0-8081-exec-2] Spend request approved. Request Details :: SpendRequest(teammateId=123.0, amount=2000.0, description=buy new laptop)
+2020-07-27 19:42:16,283 DEBUG com.mentor.budget.service.impl.SpendServiceImpl [http-nio-0.0.0.0-8081-exec-2] Updated budget  :: Project(name=ESG, budget=8000.0)
+2020-07-27 19:42:26,282 WARN com.mentor.budget.app.shutdown.ShutdownTimerTask [Timer] #################################################################
+2020-07-27 19:42:26,306 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-27 19:42:26,311 WARN com.mentor.budget.app.shutdown.ShutdownBean [SpringContextShutdownHook] BUDGET-MANAGER-SERVICE, SHUTTING DOWN
+2020-07-27 19:59:13,634 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] Starting BudgetManagerServiceApplication on yudhie with PID 9092 (A:\Code\mentor\Budget-Manager-Service\target\classes started by yudhie in A:\Code\mentor\Budget-Manager-Service)
+2020-07-27 19:59:13,639 DEBUG com.mentor.budget.app.BudgetManagerServiceApplication [main] Running with Spring Boot v2.2.9.RELEASE, Spring v5.2.8.RELEASE
+2020-07-27 19:59:13,642 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] No active profile set, falling back to default profiles: default
+2020-07-27 19:59:19,847 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2020-07-27 19:59:19,926 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-07-27 19:59:19,927 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-07-27 19:59:20,218 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-07-27 19:59:20,219 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 6395 ms
+2020-07-27 19:59:21,925 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-27 19:59:23,915 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-27 19:59:24,413 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-27 19:59:24,441 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] Started BudgetManagerServiceApplication in 12.779 seconds (JVM running for 14.686)
+2020-07-27 19:59:24,651 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] BUDGET-MANAGER-SERVICE STARTED
+2020-07-27 19:59:24,653 INFO com.mentor.budget.app.shutdown.ShutdownTimerExecutor [main] CREATING TIMER ------------------------
+2020-07-27 19:59:35,012 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-0.0.0.0-8081-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-27 19:59:35,018 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-0.0.0.0-8081-exec-2] Initializing Servlet 'dispatcherServlet'
+2020-07-27 19:59:35,052 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-0.0.0.0-8081-exec-2] Completed initialization in 33 ms
+2020-07-27 19:59:35,849 DEBUG com.mentor.budget.controller.SpendController [http-nio-0.0.0.0-8081-exec-2] Processing spend request with  :: SpendRequest(teammateId=111.0, amount=2000.0, description=buy new laptop)
+2020-07-27 19:59:41,305 INFO com.mentor.budget.service.impl.SpendServiceImpl [http-nio-0.0.0.0-8081-exec-2] Processing spend request. Project details :: Project(name=ESG, budget=10000.0)
+2020-07-27 19:59:42,817 DEBUG com.mentor.budget.service.impl.SpendServiceImpl [http-nio-0.0.0.0-8081-exec-2] Spend request approved. Request Details :: SpendRequest(teammateId=111.0, amount=2000.0, description=buy new laptop)
+2020-07-27 19:59:44,670 INFO com.mentor.budget.app.shutdown.ShutdownTimerExecutor [http-nio-0.0.0.0-8081-exec-2] CANCELING TIMER ------------------------
+2020-07-27 19:59:44,673 INFO com.mentor.budget.app.shutdown.ShutdownTimerExecutor [http-nio-0.0.0.0-8081-exec-2] CREATING TIMER ------------------------
+2020-07-27 19:59:44,675 DEBUG com.mentor.budget.service.impl.SpendServiceImpl [http-nio-0.0.0.0-8081-exec-2] Updated budget  :: Project(name=ESG, budget=8000.0)
+2020-07-27 20:00:44,678 WARN com.mentor.budget.app.shutdown.ShutdownTimerTask [ShutDownTimer] #################################################################
+2020-07-27 20:00:44,718 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-27 20:00:44,724 WARN com.mentor.budget.app.shutdown.ShutdownBean [SpringContextShutdownHook] BUDGET-MANAGER-SERVICE, SHUTTING DOWN
+2020-07-27 20:59:38,728 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] Starting BudgetManagerServiceApplication on yudhie with PID 13012 (A:\Code\mentor\Budget-Manager-Service\target\classes started by yudhie in A:\Code\mentor\Budget-Manager-Service)
+2020-07-27 20:59:38,738 DEBUG com.mentor.budget.app.BudgetManagerServiceApplication [main] Running with Spring Boot v2.2.9.RELEASE, Spring v5.2.8.RELEASE
+2020-07-27 20:59:38,739 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] No active profile set, falling back to default profiles: default
+2020-07-27 20:59:43,748 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2020-07-27 20:59:43,918 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-07-27 20:59:43,921 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-07-27 20:59:44,822 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-07-27 20:59:44,824 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5866 ms
+2020-07-27 20:59:47,455 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-27 20:59:48,818 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-27 20:59:49,395 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-27 20:59:49,422 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] Started BudgetManagerServiceApplication in 12.616 seconds (JVM running for 15.595)
+2020-07-27 20:59:49,699 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] BUDGET-MANAGER-SERVICE STARTED
+2020-07-27 20:59:49,701 INFO com.mentor.budget.app.shutdown.ShutdownTimerExecutor [main] ------------------------ CREATING TIMER ------------------------
+2020-07-27 21:01:19,705 WARN com.mentor.budget.app.shutdown.ShutdownTimerTask [ShutDownTimer] #################################################################
+2020-07-27 21:01:19,736 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-27 21:01:19,739 WARN com.mentor.budget.app.shutdown.ShutdownBean [SpringContextShutdownHook] BUDGET-MANAGER-SERVICE, SHUTTING DOWN
+2020-07-27 21:01:57,324 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] Starting BudgetManagerServiceApplication on yudhie with PID 28512 (A:\Code\mentor\Budget-Manager-Service\target\classes started by yudhie in A:\Code\mentor\Budget-Manager-Service)
+2020-07-27 21:01:57,331 DEBUG com.mentor.budget.app.BudgetManagerServiceApplication [main] Running with Spring Boot v2.2.9.RELEASE, Spring v5.2.8.RELEASE
+2020-07-27 21:01:57,340 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] No active profile set, falling back to default profiles: default
+2020-07-27 21:02:02,216 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2020-07-27 21:02:02,278 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-07-27 21:02:02,280 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-07-27 21:02:02,775 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-07-27 21:02:02,776 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5209 ms
+2020-07-27 21:02:07,631 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-27 21:02:09,409 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-27 21:02:09,797 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-27 21:02:09,816 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] Started BudgetManagerServiceApplication in 14.088 seconds (JVM running for 15.959)
+2020-07-27 21:02:10,100 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] BUDGET-MANAGER-SERVICE STARTED
+2020-07-27 21:02:10,111 INFO com.mentor.budget.app.shutdown.ShutdownTimerExecutor [main] ------------------------ CREATING TIMER ------------------------
+2020-07-27 21:02:22,601 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-0.0.0.0-8081-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-27 21:02:22,604 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-0.0.0.0-8081-exec-2] Initializing Servlet 'dispatcherServlet'
+2020-07-27 21:02:22,636 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-0.0.0.0-8081-exec-2] Completed initialization in 31 ms
+2020-07-27 21:02:23,229 DEBUG com.mentor.budget.controller.SpendController [http-nio-0.0.0.0-8081-exec-2] Processing spend request with  :: SpendRequest(teammateId=111.0, amount=2000.0, description=buy new laptop)
+2020-07-27 21:02:25,277 INFO com.mentor.budget.service.impl.SpendServiceImpl [http-nio-0.0.0.0-8081-exec-2] Processing spend request. Project details :: Project(name=ESG, budget=10000.0)
+2020-07-27 21:02:25,932 DEBUG com.mentor.budget.service.impl.SpendServiceImpl [http-nio-0.0.0.0-8081-exec-2] Spend request approved. Request Details :: SpendRequest(teammateId=111.0, amount=2000.0, description=buy new laptop)
+2020-07-27 21:02:26,172 INFO com.mentor.budget.app.shutdown.ShutdownTimerExecutor [http-nio-0.0.0.0-8081-exec-2] ------------------------ CANCELING TIMER ------------------------
+2020-07-27 21:02:26,180 INFO com.mentor.budget.app.shutdown.ShutdownTimerExecutor [http-nio-0.0.0.0-8081-exec-2] ------------------------ CREATING TIMER ------------------------
+2020-07-27 21:02:26,181 DEBUG com.mentor.budget.service.impl.SpendServiceImpl [http-nio-0.0.0.0-8081-exec-2] Updated budget  :: Project(name=ESG, budget=8000.0)
+2020-07-27 21:02:43,597 DEBUG com.mentor.budget.controller.SpendController [http-nio-0.0.0.0-8081-exec-3] Processing spend request with  :: SpendRequest(teammateId=111.0, amount=2000.0, description=buy new laptop)
+2020-07-27 21:03:04,658 INFO com.mentor.budget.service.impl.SpendServiceImpl [http-nio-0.0.0.0-8081-exec-3] Processing spend request. Project details :: Project(name=ESG, budget=8000.0)
+2020-07-27 21:03:05,437 DEBUG com.mentor.budget.service.impl.SpendServiceImpl [http-nio-0.0.0.0-8081-exec-3] Spend request approved. Request Details :: SpendRequest(teammateId=111.0, amount=2000.0, description=buy new laptop)
+2020-07-27 21:03:05,620 INFO com.mentor.budget.app.shutdown.ShutdownTimerExecutor [http-nio-0.0.0.0-8081-exec-3] ------------------------ CANCELING TIMER ------------------------
+2020-07-27 21:03:05,627 INFO com.mentor.budget.app.shutdown.ShutdownTimerExecutor [http-nio-0.0.0.0-8081-exec-3] ------------------------ CREATING TIMER ------------------------
+2020-07-27 21:03:05,631 DEBUG com.mentor.budget.service.impl.SpendServiceImpl [http-nio-0.0.0.0-8081-exec-3] Updated budget  :: Project(name=ESG, budget=6000.0)
+2020-07-27 21:03:19,373 DEBUG com.mentor.budget.controller.SpendController [http-nio-0.0.0.0-8081-exec-4] Processing spend request with  :: SpendRequest(teammateId=111.0, amount=2000.0, description=buy new laptop)
+2020-07-27 21:03:19,375 INFO com.mentor.budget.service.impl.SpendServiceImpl [http-nio-0.0.0.0-8081-exec-4] Processing spend request. Project details :: Project(name=ESG, budget=6000.0)
+2020-07-27 21:03:19,377 DEBUG com.mentor.budget.service.impl.SpendServiceImpl [http-nio-0.0.0.0-8081-exec-4] Spend request approved. Request Details :: SpendRequest(teammateId=111.0, amount=2000.0, description=buy new laptop)
+2020-07-27 21:03:19,380 INFO com.mentor.budget.app.shutdown.ShutdownTimerExecutor [http-nio-0.0.0.0-8081-exec-4] ------------------------ CANCELING TIMER ------------------------
+2020-07-27 21:03:19,381 INFO com.mentor.budget.app.shutdown.ShutdownTimerExecutor [http-nio-0.0.0.0-8081-exec-4] ------------------------ CREATING TIMER ------------------------
+2020-07-27 21:03:19,385 DEBUG com.mentor.budget.service.impl.SpendServiceImpl [http-nio-0.0.0.0-8081-exec-4] Updated budget  :: Project(name=ESG, budget=4000.0)
+2020-07-27 21:04:49,384 WARN com.mentor.budget.app.shutdown.ShutdownTimerTask [ShutDownTimer] #################################################################
+2020-07-27 21:04:49,410 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-27 21:04:49,414 WARN com.mentor.budget.app.shutdown.ShutdownBean [SpringContextShutdownHook] BUDGET-MANAGER-SERVICE, SHUTTING DOWN
+2020-07-27 21:15:57,445 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] Starting BudgetManagerServiceApplication on yudhie with PID 25404 (A:\Code\mentor\Budget-Manager-Service\target\classes started by yudhie in A:\Code\mentor\Budget-Manager-Service)
+2020-07-27 21:15:57,517 DEBUG com.mentor.budget.app.BudgetManagerServiceApplication [main] Running with Spring Boot v2.2.9.RELEASE, Spring v5.2.8.RELEASE
+2020-07-27 21:15:57,518 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] No active profile set, falling back to default profiles: default
+2020-07-27 21:16:01,845 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2020-07-27 21:16:01,867 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-07-27 21:16:01,868 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-07-27 21:16:02,072 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-07-27 21:16:02,072 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4391 ms
+2020-07-27 21:16:02,817 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-27 21:16:03,562 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-27 21:16:03,803 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-27 21:16:03,819 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] Started BudgetManagerServiceApplication in 7.966 seconds (JVM running for 9.633)
+2020-07-27 21:16:04,057 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] BUDGET-MANAGER-SERVICE STARTED
+2020-07-27 21:16:04,059 INFO com.mentor.budget.app.shutdown.ShutdownTimerExecutor [main] ------------------------ CREATING TIMER ------------------------
+2020-07-27 21:16:42,756 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-0.0.0.0-8081-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-27 21:16:42,759 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-0.0.0.0-8081-exec-2] Initializing Servlet 'dispatcherServlet'
+2020-07-27 21:16:42,853 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-0.0.0.0-8081-exec-2] Completed initialization in 90 ms
+2020-07-27 21:16:44,430 DEBUG com.mentor.budget.controller.SpendController [http-nio-0.0.0.0-8081-exec-2] Processing spend request with  :: SpendRequest(teammateId=111.0, amount=2000.0, description=buy new laptop)
+2020-07-27 21:16:44,435 INFO com.mentor.budget.service.impl.SpendServiceImpl [http-nio-0.0.0.0-8081-exec-2] Processing spend request. Project details :: Project(name=ESG, budget=10000.0)
+2020-07-27 21:16:44,436 DEBUG com.mentor.budget.service.impl.SpendServiceImpl [http-nio-0.0.0.0-8081-exec-2] Spend request approved. Request Details :: SpendRequest(teammateId=111.0, amount=2000.0, description=buy new laptop)
+2020-07-27 21:16:44,439 INFO com.mentor.budget.app.shutdown.ShutdownTimerExecutor [http-nio-0.0.0.0-8081-exec-2] ------------------------ CANCELING TIMER ------------------------
+2020-07-27 21:16:44,440 INFO com.mentor.budget.app.shutdown.ShutdownTimerExecutor [http-nio-0.0.0.0-8081-exec-2] ------------------------ CREATING TIMER ------------------------
+2020-07-27 21:16:44,441 DEBUG com.mentor.budget.service.impl.SpendServiceImpl [http-nio-0.0.0.0-8081-exec-2] Updated budget  :: Project(name=ESG, budget=8000.0)
+2020-07-27 21:16:49,885 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-27 21:16:49,889 WARN com.mentor.budget.app.shutdown.ShutdownBean [SpringContextShutdownHook] BUDGET-MANAGER-SERVICE, SHUTTING DOWN
+2020-07-27 21:16:49,892 WARN org.springframework.context.annotation.CommonAnnotationBeanPostProcessor [SpringContextShutdownHook] Destroy method on bean with name 'shutdownBean' threw an exception: java.nio.file.InvalidPathException: Illegal char <:> at index 51: success/archive/budget-manager-serviceMon Jul 27 21:16:49 IST 2020
+2020-07-27 21:17:50,981 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] Starting BudgetManagerServiceApplication on yudhie with PID 26872 (A:\Code\mentor\Budget-Manager-Service\target\classes started by yudhie in A:\Code\mentor\Budget-Manager-Service)
+2020-07-27 21:17:51,015 DEBUG com.mentor.budget.app.BudgetManagerServiceApplication [main] Running with Spring Boot v2.2.9.RELEASE, Spring v5.2.8.RELEASE
+2020-07-27 21:17:51,017 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] No active profile set, falling back to default profiles: default
+2020-07-27 21:17:55,422 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2020-07-27 21:17:55,447 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-07-27 21:17:55,447 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-07-27 21:17:55,623 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-07-27 21:17:55,623 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4439 ms
+2020-07-27 21:17:56,388 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-27 21:17:56,860 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-27 21:17:57,031 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-27 21:17:57,043 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] Started BudgetManagerServiceApplication in 7.551 seconds (JVM running for 10.607)
+2020-07-27 21:17:57,208 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] BUDGET-MANAGER-SERVICE STARTED
+2020-07-27 21:17:57,210 INFO com.mentor.budget.app.shutdown.ShutdownTimerExecutor [main] ------------------------ CREATING TIMER ------------------------
+2020-07-27 21:19:27,213 WARN com.mentor.budget.app.shutdown.ShutdownTimerTask [ShutDownTimer] BUDGET-MANAGER-SERVICE, SHUTTING DOWN
+2020-07-27 21:19:27,247 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-27 21:19:27,254 WARN com.mentor.budget.app.shutdown.ShutdownBean [SpringContextShutdownHook] BUDGET-MANAGER-SERVICE, SHUTTING DOWN
+2020-07-27 21:19:27,258 WARN org.springframework.context.annotation.CommonAnnotationBeanPostProcessor [SpringContextShutdownHook] Destroy method on bean with name 'shutdownBean' threw an exception: java.nio.file.InvalidPathException: Illegal char <:> at index 51: success/archive/budget-manager-serviceMon Jul 27 21:19:27 IST 2020.txt
+2020-07-27 21:20:41,410 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] Starting BudgetManagerServiceApplication on yudhie with PID 22200 (A:\Code\mentor\Budget-Manager-Service\target\classes started by yudhie in A:\Code\mentor\Budget-Manager-Service)
+2020-07-27 21:20:41,422 DEBUG com.mentor.budget.app.BudgetManagerServiceApplication [main] Running with Spring Boot v2.2.9.RELEASE, Spring v5.2.8.RELEASE
+2020-07-27 21:20:41,423 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] No active profile set, falling back to default profiles: default
+2020-07-27 21:20:45,948 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2020-07-27 21:20:46,014 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-07-27 21:20:46,015 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-07-27 21:20:46,527 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-07-27 21:20:46,528 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4870 ms
+2020-07-27 21:20:48,567 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-27 21:20:50,040 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-27 21:20:50,415 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-27 21:20:50,438 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] Started BudgetManagerServiceApplication in 10.639 seconds (JVM running for 12.436)
+2020-07-27 21:20:50,776 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] BUDGET-MANAGER-SERVICE STARTED
+2020-07-27 21:20:50,778 INFO com.mentor.budget.app.shutdown.ShutdownTimerExecutor [main] ------------------------ CREATING TIMER ------------------------
+2020-07-27 21:21:00,782 WARN com.mentor.budget.app.shutdown.ShutdownTimerTask [ShutDownTimer] BUDGET-MANAGER-SERVICE, SHUTTING DOWN
+2020-07-27 21:21:00,800 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-27 21:21:05,756 WARN com.mentor.budget.app.shutdown.ShutdownBean [SpringContextShutdownHook] BUDGET-MANAGER-SERVICE, SHUTTING DOWN
+2020-07-27 21:21:15,765 WARN org.springframework.context.annotation.CommonAnnotationBeanPostProcessor [SpringContextShutdownHook] Destroy method on bean with name 'shutdownBean' threw an exception: java.nio.file.InvalidPathException: Illegal char <:> at index 51: success/archive/budget-manager-serviceMon Jul 27 21:21:05 IST 2020.txt
+2020-07-27 21:23:50,811 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] Starting BudgetManagerServiceApplication on yudhie with PID 13928 (A:\Code\mentor\Budget-Manager-Service\target\classes started by yudhie in A:\Code\mentor\Budget-Manager-Service)
+2020-07-27 21:23:50,820 DEBUG com.mentor.budget.app.BudgetManagerServiceApplication [main] Running with Spring Boot v2.2.9.RELEASE, Spring v5.2.8.RELEASE
+2020-07-27 21:23:50,830 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] No active profile set, falling back to default profiles: default
+2020-07-27 21:23:55,960 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2020-07-27 21:23:55,992 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-07-27 21:23:55,993 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-07-27 21:23:56,223 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-07-27 21:23:56,224 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5104 ms
+2020-07-27 21:23:57,718 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-27 21:23:59,400 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-27 21:23:59,895 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-27 21:23:59,951 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] Started BudgetManagerServiceApplication in 10.859 seconds (JVM running for 14.409)
+2020-07-27 21:24:00,202 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] BUDGET-MANAGER-SERVICE STARTED
+2020-07-27 21:24:00,203 INFO com.mentor.budget.app.shutdown.ShutdownTimerExecutor [main] ------------------------ CREATING TIMER ------------------------
+2020-07-27 21:24:10,206 WARN com.mentor.budget.app.shutdown.ShutdownTimerTask [ShutDownTimer] BUDGET-MANAGER-SERVICE, SHUTTING DOWN
+2020-07-27 21:24:10,223 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-27 21:24:13,558 WARN com.mentor.budget.app.shutdown.ShutdownBean [SpringContextShutdownHook] BUDGET-MANAGER-SERVICE, SHUTTING DOWN
+2020-07-27 21:24:25,542 WARN org.springframework.context.annotation.CommonAnnotationBeanPostProcessor [SpringContextShutdownHook] Destroy method on bean with name 'shutdownBean' threw an exception: java.nio.file.InvalidPathException: Illegal char <:> at index 32: success/archive/ESGMon Jul 27 21:24:13 IST 2020.txt
+2020-07-27 21:27:51,978 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] Starting BudgetManagerServiceApplication on yudhie with PID 18568 (A:\Code\mentor\Budget-Manager-Service\target\classes started by yudhie in A:\Code\mentor\Budget-Manager-Service)
+2020-07-27 21:27:51,999 DEBUG com.mentor.budget.app.BudgetManagerServiceApplication [main] Running with Spring Boot v2.2.9.RELEASE, Spring v5.2.8.RELEASE
+2020-07-27 21:27:52,002 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] No active profile set, falling back to default profiles: default
+2020-07-27 21:27:56,308 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2020-07-27 21:27:56,355 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-07-27 21:27:56,356 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-07-27 21:27:56,558 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-07-27 21:27:56,559 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4290 ms
+2020-07-27 21:27:57,371 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-27 21:27:57,858 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-27 21:27:58,003 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-27 21:27:58,014 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] Started BudgetManagerServiceApplication in 7.466 seconds (JVM running for 9.895)
+2020-07-27 21:27:58,164 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] BUDGET-MANAGER-SERVICE STARTED
+2020-07-27 21:27:58,165 INFO com.mentor.budget.app.shutdown.ShutdownTimerExecutor [main] ------------------------ CREATING TIMER ------------------------
+2020-07-27 21:28:08,169 WARN com.mentor.budget.app.shutdown.ShutdownTimerTask [ShutDownTimer] BUDGET-MANAGER-SERVICE, SHUTTING DOWN
+2020-07-27 21:28:08,198 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-27 21:32:57,834 WARN com.mentor.budget.app.shutdown.ShutdownBean [SpringContextShutdownHook] BUDGET-MANAGER-SERVICE, SHUTTING DOWN
+2020-07-27 21:33:07,708 WARN org.springframework.context.annotation.CommonAnnotationBeanPostProcessor [SpringContextShutdownHook] Destroy method on bean with name 'shutdownBean' threw an exception: java.nio.file.InvalidPathException: Illegal char <:> at index 44: success/archive/projectName/ESGMon Jul 27 21:32:57 IST 2020.txt
+2020-07-27 21:33:44,468 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] Starting BudgetManagerServiceApplication on yudhie with PID 26644 (A:\Code\mentor\Budget-Manager-Service\target\classes started by yudhie in A:\Code\mentor\Budget-Manager-Service)
+2020-07-27 21:33:44,515 DEBUG com.mentor.budget.app.BudgetManagerServiceApplication [main] Running with Spring Boot v2.2.9.RELEASE, Spring v5.2.8.RELEASE
+2020-07-27 21:33:44,518 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] No active profile set, falling back to default profiles: default
+2020-07-27 21:33:49,123 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2020-07-27 21:33:49,161 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-07-27 21:33:49,161 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-07-27 21:33:49,365 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-07-27 21:33:49,365 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4663 ms
+2020-07-27 21:33:50,075 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-27 21:33:50,602 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-27 21:33:50,752 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-27 21:33:50,765 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] Started BudgetManagerServiceApplication in 7.64 seconds (JVM running for 9.251)
+2020-07-27 21:33:50,933 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] BUDGET-MANAGER-SERVICE STARTED
+2020-07-27 21:33:50,935 INFO com.mentor.budget.app.shutdown.ShutdownTimerExecutor [main] ------------------------ CREATING TIMER ------------------------
+2020-07-27 21:34:00,949 WARN com.mentor.budget.app.shutdown.ShutdownTimerTask [ShutDownTimer] BUDGET-MANAGER-SERVICE, SHUTTING DOWN
+2020-07-27 21:34:00,986 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-27 21:34:18,459 WARN com.mentor.budget.app.shutdown.ShutdownBean [SpringContextShutdownHook] BUDGET-MANAGER-SERVICE, SHUTTING DOWN
+2020-07-27 21:35:03,541 WARN org.springframework.context.annotation.CommonAnnotationBeanPostProcessor [SpringContextShutdownHook] Destroy method on bean with name 'shutdownBean' threw an exception: java.nio.file.InvalidPathException: Illegal char <:> at index 36: success/archive/ESG/ESGMon Jul 27 21:34:18 IST 2020.txt
+2020-07-27 21:39:56,005 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] Starting BudgetManagerServiceApplication on yudhie with PID 11628 (A:\Code\mentor\Budget-Manager-Service\target\classes started by yudhie in A:\Code\mentor\Budget-Manager-Service)
+2020-07-27 21:39:56,012 DEBUG com.mentor.budget.app.BudgetManagerServiceApplication [main] Running with Spring Boot v2.2.9.RELEASE, Spring v5.2.8.RELEASE
+2020-07-27 21:39:56,013 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] No active profile set, falling back to default profiles: default
+2020-07-27 21:40:01,484 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2020-07-27 21:40:01,517 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-07-27 21:40:01,518 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-07-27 21:40:01,803 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-07-27 21:40:01,804 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5417 ms
+2020-07-27 21:40:02,799 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-27 21:40:03,615 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-27 21:40:03,876 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-27 21:40:03,887 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] Started BudgetManagerServiceApplication in 9.366 seconds (JVM running for 11.155)
+2020-07-27 21:40:04,070 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] BUDGET-MANAGER-SERVICE STARTED
+2020-07-27 21:40:04,072 INFO com.mentor.budget.app.shutdown.ShutdownTimerExecutor [main] ------------------------ CREATING TIMER ------------------------
+2020-07-27 21:40:14,073 WARN com.mentor.budget.app.shutdown.ShutdownTimerTask [ShutDownTimer] BUDGET-MANAGER-SERVICE, SHUTTING DOWN
+2020-07-27 21:40:14,102 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-27 21:40:19,968 WARN com.mentor.budget.app.shutdown.ShutdownBean [SpringContextShutdownHook] BUDGET-MANAGER-SERVICE, SHUTTING DOWN
+2020-07-27 21:40:48,917 WARN com.mentor.budget.app.shutdown.ShutdownBean [SpringContextShutdownHook] Exception while moving file: success\ESG.txt -> success\ archive\ESG\ESG1595866219972.txt
+2020-07-27 21:40:48,919 WARN com.mentor.budget.app.shutdown.ShutdownBean [SpringContextShutdownHook] File movement failed.
+2020-07-27 21:44:08,034 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] Starting BudgetManagerServiceApplication on yudhie with PID 22088 (A:\Code\mentor\Budget-Manager-Service\target\classes started by yudhie in A:\Code\mentor\Budget-Manager-Service)
+2020-07-27 21:44:08,053 DEBUG com.mentor.budget.app.BudgetManagerServiceApplication [main] Running with Spring Boot v2.2.9.RELEASE, Spring v5.2.8.RELEASE
+2020-07-27 21:44:08,057 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] No active profile set, falling back to default profiles: default
+2020-07-27 21:44:12,735 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2020-07-27 21:44:12,802 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-07-27 21:44:12,803 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-07-27 21:44:13,302 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-07-27 21:44:13,303 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4933 ms
+2020-07-27 21:44:16,555 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-27 21:44:19,217 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-27 21:44:19,734 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-27 21:44:19,751 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] Started BudgetManagerServiceApplication in 13.132 seconds (JVM running for 17.322)
+2020-07-27 21:44:20,098 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] BUDGET-MANAGER-SERVICE STARTED
+2020-07-27 21:44:20,102 INFO com.mentor.budget.app.shutdown.ShutdownTimerExecutor [main] ------------------------ CREATING TIMER ------------------------
+2020-07-27 21:44:30,106 WARN com.mentor.budget.app.shutdown.ShutdownTimerTask [ShutDownTimer] BUDGET-MANAGER-SERVICE, SHUTTING DOWN
+2020-07-27 21:44:30,125 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-27 21:44:36,208 WARN com.mentor.budget.app.shutdown.ShutdownBean [SpringContextShutdownHook] BUDGET-MANAGER-SERVICE, SHUTTING DOWN
+2020-07-27 21:45:05,166 WARN com.mentor.budget.app.shutdown.ShutdownBean [SpringContextShutdownHook] Exception while moving file: success\ESG.txt -> success\archive\ESG\ESG1595866501385.txt
+2020-07-27 21:45:05,173 WARN com.mentor.budget.app.shutdown.ShutdownBean [SpringContextShutdownHook] File movement failed.
+2020-07-27 22:05:02,102 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] Starting BudgetManagerServiceApplication on yudhie with PID 18596 (A:\Code\mentor\Budget-Manager-Service\target\classes started by yudhie in A:\Code\mentor\Budget-Manager-Service)
+2020-07-27 22:05:02,114 DEBUG com.mentor.budget.app.BudgetManagerServiceApplication [main] Running with Spring Boot v2.2.9.RELEASE, Spring v5.2.8.RELEASE
+2020-07-27 22:05:02,120 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] No active profile set, falling back to default profiles: default
+2020-07-27 22:05:06,626 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2020-07-27 22:05:06,650 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-07-27 22:05:06,650 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-07-27 22:05:06,852 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-07-27 22:05:06,852 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4522 ms
+2020-07-27 22:05:08,200 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-27 22:05:09,675 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-27 22:05:10,148 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-27 22:05:10,171 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] Started BudgetManagerServiceApplication in 10.215 seconds (JVM running for 14.993)
+2020-07-27 22:05:10,548 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] BUDGET-MANAGER-SERVICE STARTED
+2020-07-27 22:05:10,550 INFO com.mentor.budget.app.shutdown.ShutdownTimerExecutor [main] ------------------------ CREATING TIMER ------------------------
+2020-07-27 22:05:20,555 WARN com.mentor.budget.app.shutdown.ShutdownTimerTask [ShutDownTimer] BUDGET-MANAGER-SERVICE, SHUTTING DOWN
+2020-07-27 22:05:20,578 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-27 22:09:00,576 WARN com.mentor.budget.app.shutdown.ShutdownBean [SpringContextShutdownHook] BUDGET-MANAGER-SERVICE, SHUTTING DOWN
+2020-07-27 22:09:02,223 WARN com.mentor.budget.app.shutdown.ShutdownBean [SpringContextShutdownHook] BUDGET-MANAGER-SERVICE,File content copied successfully
+2020-07-27 22:31:09,613 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] Starting BudgetManagerServiceApplication on yudhie with PID 28040 (A:\Code\mentor\Budget-Manager-Service\target\classes started by yudhie in A:\Code\mentor\Budget-Manager-Service)
+2020-07-27 22:31:09,618 DEBUG com.mentor.budget.app.BudgetManagerServiceApplication [main] Running with Spring Boot v2.2.9.RELEASE, Spring v5.2.8.RELEASE
+2020-07-27 22:31:09,620 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] No active profile set, falling back to default profiles: default
+2020-07-27 22:31:15,375 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2020-07-27 22:31:15,406 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-07-27 22:31:15,407 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-07-27 22:31:15,635 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-07-27 22:31:15,636 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5695 ms
+2020-07-27 22:31:16,451 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-27 22:31:17,047 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-27 22:31:17,214 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-27 22:31:17,224 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] Started BudgetManagerServiceApplication in 9.48 seconds (JVM running for 11.077)
+2020-07-27 22:31:17,432 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] BUDGET-MANAGER-SERVICE STARTED
+2020-07-27 22:31:17,433 INFO com.mentor.budget.app.shutdown.ShutdownTimerExecutor [main] ------------------------ CREATING TIMER ------------------------
+2020-07-27 22:31:27,436 WARN com.mentor.budget.app.shutdown.ShutdownTimerTask [ShutDownTimer] BUDGET-MANAGER-SERVICE, SHUTTING DOWN
+2020-07-27 22:31:27,452 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-27 22:31:38,789 WARN com.mentor.budget.app.shutdown.ShutdownBean [SpringContextShutdownHook] BUDGET-MANAGER-SERVICE, SHUTTING DOWN
+2020-07-27 22:31:41,378 INFO com.mentor.budget.app.shutdown.ShutdownBean [SpringContextShutdownHook] BUDGET-MANAGER-SERVICE,File content copied successfully
+2020-07-27 22:32:35,570 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] Starting BudgetManagerServiceApplication on yudhie with PID 20520 (A:\Code\mentor\Budget-Manager-Service\target\classes started by yudhie in A:\Code\mentor\Budget-Manager-Service)
+2020-07-27 22:32:35,578 DEBUG com.mentor.budget.app.BudgetManagerServiceApplication [main] Running with Spring Boot v2.2.9.RELEASE, Spring v5.2.8.RELEASE
+2020-07-27 22:32:35,579 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] No active profile set, falling back to default profiles: default
+2020-07-27 22:32:41,082 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2020-07-27 22:32:41,186 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-07-27 22:32:41,188 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-07-27 22:32:42,029 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-07-27 22:32:42,030 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 6182 ms
+2020-07-27 22:32:46,024 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-27 22:32:47,794 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-27 22:32:48,254 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-27 22:32:48,276 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] Started BudgetManagerServiceApplication in 14.358 seconds (JVM running for 17.751)
+2020-07-27 22:32:48,465 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] BUDGET-MANAGER-SERVICE STARTED
+2020-07-27 22:32:48,467 INFO com.mentor.budget.app.shutdown.ShutdownTimerExecutor [main] ------------------------ CREATING TIMER ------------------------
+2020-07-27 22:33:02,746 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-0.0.0.0-8081-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-27 22:33:02,749 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-0.0.0.0-8081-exec-2] Initializing Servlet 'dispatcherServlet'
+2020-07-27 22:33:02,849 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-0.0.0.0-8081-exec-2] Completed initialization in 98 ms
+2020-07-27 22:33:04,600 DEBUG com.mentor.budget.controller.SpendController [http-nio-0.0.0.0-8081-exec-2] Processing spend request with  :: SpendRequest(teammateId=111.0, amount=2000.0, description=buy new laptop)
+2020-07-27 22:33:04,605 INFO com.mentor.budget.service.impl.SpendServiceImpl [http-nio-0.0.0.0-8081-exec-2] Processing spend request. Project details :: Project(name=ESG, budget=10000.0)
+2020-07-27 22:33:04,612 DEBUG com.mentor.budget.service.impl.SpendServiceImpl [http-nio-0.0.0.0-8081-exec-2] Spend request approved. Request Details :: SpendRequest(teammateId=111.0, amount=2000.0, description=buy new laptop)
+2020-07-27 22:33:04,617 INFO com.mentor.budget.app.shutdown.ShutdownTimerExecutor [http-nio-0.0.0.0-8081-exec-2] ------------------------ CANCELING TIMER ------------------------
+2020-07-27 22:33:04,619 INFO com.mentor.budget.app.shutdown.ShutdownTimerExecutor [http-nio-0.0.0.0-8081-exec-2] ------------------------ CREATING TIMER ------------------------
+2020-07-27 22:33:04,621 DEBUG com.mentor.budget.service.impl.SpendServiceImpl [http-nio-0.0.0.0-8081-exec-2] Updated budget  :: Project(name=ESG, budget=8000.0)
+2020-07-27 22:33:22,943 DEBUG com.mentor.budget.controller.SpendController [http-nio-0.0.0.0-8081-exec-3] Processing spend request with  :: SpendRequest(teammateId=222.0, amount=2000.0, description=buy new laptop)
+2020-07-27 22:33:22,944 INFO com.mentor.budget.service.impl.SpendServiceImpl [http-nio-0.0.0.0-8081-exec-3] Processing spend request. Project details :: Project(name=ESG, budget=8000.0)
+2020-07-27 22:33:22,946 DEBUG com.mentor.budget.service.impl.SpendServiceImpl [http-nio-0.0.0.0-8081-exec-3] Spend request approved. Request Details :: SpendRequest(teammateId=222.0, amount=2000.0, description=buy new laptop)
+2020-07-27 22:33:22,948 INFO com.mentor.budget.app.shutdown.ShutdownTimerExecutor [http-nio-0.0.0.0-8081-exec-3] ------------------------ CANCELING TIMER ------------------------
+2020-07-27 22:33:22,949 INFO com.mentor.budget.app.shutdown.ShutdownTimerExecutor [http-nio-0.0.0.0-8081-exec-3] ------------------------ CREATING TIMER ------------------------
+2020-07-27 22:33:22,951 DEBUG com.mentor.budget.service.impl.SpendServiceImpl [http-nio-0.0.0.0-8081-exec-3] Updated budget  :: Project(name=ESG, budget=6000.0)
+2020-07-27 22:33:29,847 DEBUG com.mentor.budget.controller.SpendController [http-nio-0.0.0.0-8081-exec-4] Processing spend request with  :: SpendRequest(teammateId=333.0, amount=2000.0, description=buy new laptop)
+2020-07-27 22:33:29,849 INFO com.mentor.budget.service.impl.SpendServiceImpl [http-nio-0.0.0.0-8081-exec-4] Processing spend request. Project details :: Project(name=ESG, budget=6000.0)
+2020-07-27 22:33:29,851 DEBUG com.mentor.budget.service.impl.SpendServiceImpl [http-nio-0.0.0.0-8081-exec-4] Spend request approved. Request Details :: SpendRequest(teammateId=333.0, amount=2000.0, description=buy new laptop)
+2020-07-27 22:33:29,924 INFO com.mentor.budget.app.shutdown.ShutdownTimerExecutor [http-nio-0.0.0.0-8081-exec-4] ------------------------ CANCELING TIMER ------------------------
+2020-07-27 22:33:29,934 INFO com.mentor.budget.app.shutdown.ShutdownTimerExecutor [http-nio-0.0.0.0-8081-exec-4] ------------------------ CREATING TIMER ------------------------
+2020-07-27 22:33:29,937 DEBUG com.mentor.budget.service.impl.SpendServiceImpl [http-nio-0.0.0.0-8081-exec-4] Updated budget  :: Project(name=ESG, budget=4000.0)
+2020-07-27 22:33:39,541 DEBUG com.mentor.budget.controller.SpendController [http-nio-0.0.0.0-8081-exec-5] Processing spend request with  :: SpendRequest(teammateId=444.0, amount=6000.0, description=buy new laptop)
+2020-07-27 22:33:39,541 INFO com.mentor.budget.service.impl.SpendServiceImpl [http-nio-0.0.0.0-8081-exec-5] Processing spend request. Project details :: Project(name=ESG, budget=4000.0)
+2020-07-27 22:33:39,571 ERROR com.mentor.budget.exception.BudgetRestExceptionHandler [http-nio-0.0.0.0-8081-exec-5] Exception during spend request processing :: com.mentor.budget.exception.SpendException: Exception during spend request processing. Please verify request details
+2020-07-27 22:34:02,351 DEBUG com.mentor.budget.controller.SpendController [http-nio-0.0.0.0-8081-exec-6] Processing spend request with  :: SpendRequest(teammateId=444.0, amount=6000.0, description=buy new laptop)
+2020-07-27 22:34:02,351 INFO com.mentor.budget.service.impl.SpendServiceImpl [http-nio-0.0.0.0-8081-exec-6] Processing spend request. Project details :: Project(name=ESG, budget=4000.0)
+2020-07-27 22:34:02,353 ERROR com.mentor.budget.exception.BudgetRestExceptionHandler [http-nio-0.0.0.0-8081-exec-6] Exception during spend request processing :: com.mentor.budget.exception.SpendException: Exception during spend request processing. Please verify request details
+2020-07-27 22:34:59,937 WARN com.mentor.budget.app.shutdown.ShutdownTimerTask [ShutDownTimer] BUDGET-MANAGER-SERVICE, SHUTTING DOWN
+2020-07-27 22:35:00,117 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-27 22:35:00,119 WARN com.mentor.budget.app.shutdown.ShutdownBean [SpringContextShutdownHook] BUDGET-MANAGER-SERVICE, SHUTTING DOWN
+2020-07-27 22:35:00,232 INFO com.mentor.budget.app.shutdown.ShutdownBean [SpringContextShutdownHook] BUDGET-MANAGER-SERVICE,File content copied successfully
+2020-07-27 23:32:46,153 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] Starting BudgetManagerServiceApplication on yudhie with PID 14000 (A:\Code\mentor\Budget-Manager-Service\target\classes started by yudhie in A:\Code\mentor\Budget-Manager-Service)
+2020-07-27 23:32:46,163 DEBUG com.mentor.budget.app.BudgetManagerServiceApplication [main] Running with Spring Boot v2.2.9.RELEASE, Spring v5.2.8.RELEASE
+2020-07-27 23:32:46,166 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] No active profile set, falling back to default profiles: default
+2020-07-27 23:32:50,987 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2020-07-27 23:32:51,067 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-07-27 23:32:51,067 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-07-27 23:32:51,227 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-07-27 23:32:51,228 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4785 ms
+2020-07-27 23:32:52,042 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-27 23:32:52,616 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-27 23:32:52,766 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-27 23:32:52,779 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] Started BudgetManagerServiceApplication in 8.045 seconds (JVM running for 9.739)
+2020-07-27 23:32:52,915 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] <<BUDGET-MANAGER-SERVICE STARTED>>
+2020-07-27 23:32:52,916 INFO com.mentor.budget.app.shutdown.ShutdownTimerExecutor [main] <<CREATING SHUTDOWN TIMER>>
+2020-07-27 23:34:22,920 WARN com.mentor.budget.app.shutdown.ShutdownTimerTask [ShutDownTimer] <<SHUTTING DOWN>>
+2020-07-27 23:34:22,962 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-27 23:34:22,965 WARN com.mentor.budget.app.shutdown.ShutdownBean [SpringContextShutdownHook] << Archiving file contents on Shutdown >>
+2020-07-27 23:34:22,972 INFO com.mentor.budget.app.shutdown.ShutdownBean [SpringContextShutdownHook] << File content archived successfully >>
+2020-07-27 23:55:12,981 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] Starting BudgetManagerServiceApplication on yudhie with PID 16860 (A:\Code\mentor\Budget-Manager-Service\target\classes started by yudhie in A:\Code\mentor\Budget-Manager-Service)
+2020-07-27 23:55:12,990 DEBUG com.mentor.budget.app.BudgetManagerServiceApplication [main] Running with Spring Boot v2.2.9.RELEASE, Spring v5.2.8.RELEASE
+2020-07-27 23:55:12,991 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] No active profile set, falling back to default profiles: default
+2020-07-27 23:55:19,286 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2020-07-27 23:55:19,346 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-07-27 23:55:19,347 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-07-27 23:55:19,851 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-07-27 23:55:19,852 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 6594 ms
+2020-07-27 23:55:21,830 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-27 23:55:22,510 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-27 23:55:22,691 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-27 23:55:22,703 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] Started BudgetManagerServiceApplication in 11.71 seconds (JVM running for 14.032)
+2020-07-27 23:55:22,888 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] <<BUDGET-MANAGER-SERVICE STARTED>>
+2020-07-27 23:55:22,890 INFO com.mentor.budget.app.shutdown.ShutdownTimerExecutor [main] <<CREATING SHUTDOWN TIMER>>
+2020-07-27 23:55:30,876 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-0.0.0.0-8081-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-27 23:55:30,878 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-0.0.0.0-8081-exec-2] Initializing Servlet 'dispatcherServlet'
+2020-07-27 23:55:30,897 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-0.0.0.0-8081-exec-2] Completed initialization in 19 ms
+2020-07-27 23:55:31,424 DEBUG com.mentor.budget.controller.SpendController [http-nio-0.0.0.0-8081-exec-2] Processing spend request with  :: SpendRequest(teammateId=444.0, amount=6000.0, description=buy new laptop)
+2020-07-27 23:55:31,429 INFO com.mentor.budget.service.impl.SpendServiceImpl [http-nio-0.0.0.0-8081-exec-2] Processing spend request. Project details :: Project(name=ESG, budget=10000.0)
+2020-07-27 23:55:31,437 DEBUG com.mentor.budget.service.impl.SpendServiceImpl [http-nio-0.0.0.0-8081-exec-2] Spend request approved. Request Details :: SpendRequest(teammateId=444.0, amount=6000.0, description=buy new laptop)
+2020-07-27 23:55:31,439 INFO com.mentor.budget.app.shutdown.ShutdownTimerExecutor [http-nio-0.0.0.0-8081-exec-2] <<CANCELING SHUTDOWN TIMER on approved request>>
+2020-07-27 23:55:31,439 INFO com.mentor.budget.app.shutdown.ShutdownTimerExecutor [http-nio-0.0.0.0-8081-exec-2] <<CREATING SHUTDOWN TIMER>>
+2020-07-27 23:55:31,440 DEBUG com.mentor.budget.service.impl.SpendServiceImpl [http-nio-0.0.0.0-8081-exec-2] Updated budget  :: Project(name=ESG, budget=4000.0)
+2020-07-27 23:57:01,441 WARN com.mentor.budget.app.shutdown.ShutdownTimerTask [ShutDownTimer] <<SHUTTING DOWN>>
+2020-07-27 23:57:01,672 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-27 23:57:01,677 WARN com.mentor.budget.app.shutdown.ShutdownBean [SpringContextShutdownHook] << Archiving file contents on Shutdown >>
+2020-07-27 23:57:01,696 INFO com.mentor.budget.app.shutdown.ShutdownBean [SpringContextShutdownHook] << File content archived successfully >>
+2020-07-28 00:04:14,722 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] Starting BudgetManagerServiceApplication on yudhie with PID 23872 (A:\Code\mentor\Budget-Manager-Service\target\classes started by yudhie in A:\Code\mentor\Budget-Manager-Service)
+2020-07-28 00:04:15,154 DEBUG com.mentor.budget.app.BudgetManagerServiceApplication [main] Running with Spring Boot v2.2.9.RELEASE, Spring v5.2.8.RELEASE
+2020-07-28 00:04:15,155 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] No active profile set, falling back to default profiles: default
+2020-07-28 00:04:20,114 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2020-07-28 00:04:20,134 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-07-28 00:04:20,134 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-07-28 00:04:21,881 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-07-28 00:04:21,884 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 6502 ms
+2020-07-28 00:04:23,994 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-28 00:04:25,478 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-28 00:04:25,820 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-28 00:04:25,835 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] Started BudgetManagerServiceApplication in 12.633 seconds (JVM running for 14.735)
+2020-07-28 00:04:26,178 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] <<BUDGET-MANAGER-SERVICE STARTED>>
+2020-07-28 00:04:26,180 INFO com.mentor.budget.app.shutdown.ShutdownTimerExecutor [main] <<CREATING SHUTDOWN TIMER>>
+2020-07-28 00:05:24,580 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-0.0.0.0-8081-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-28 00:05:24,583 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-0.0.0.0-8081-exec-2] Initializing Servlet 'dispatcherServlet'
+2020-07-28 00:05:24,641 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-0.0.0.0-8081-exec-2] Completed initialization in 56 ms
+2020-07-28 00:05:27,393 DEBUG com.mentor.budget.controller.SpendController [http-nio-0.0.0.0-8081-exec-2] Processing spend request with  :: SpendRequest(teammateId=444.0, amount=6000.0, description=buy new laptop)
+2020-07-28 00:05:27,402 INFO com.mentor.budget.service.impl.SpendServiceImpl [http-nio-0.0.0.0-8081-exec-2] Processing spend request. Project details :: Project(name=ESG, budget=10000.0)
+2020-07-28 00:05:27,409 DEBUG com.mentor.budget.service.impl.SpendServiceImpl [http-nio-0.0.0.0-8081-exec-2] Spend request approved. Request Details :: SpendRequest(teammateId=444.0, amount=6000.0, description=buy new laptop)
+2020-07-28 00:05:27,416 INFO com.mentor.budget.app.shutdown.ShutdownTimerExecutor [http-nio-0.0.0.0-8081-exec-2] <<CANCELING SHUTDOWN TIMER on approved request>>
+2020-07-28 00:05:27,425 INFO com.mentor.budget.app.shutdown.ShutdownTimerExecutor [http-nio-0.0.0.0-8081-exec-2] <<CREATING SHUTDOWN TIMER>>
+2020-07-28 00:05:27,427 DEBUG com.mentor.budget.service.impl.SpendServiceImpl [http-nio-0.0.0.0-8081-exec-2] Updated budget  :: Project(name=ESG, budget=4000.0)
+2020-07-28 00:05:39,036 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-28 00:05:39,039 WARN com.mentor.budget.app.shutdown.ShutdownBean [SpringContextShutdownHook] << Archiving file contents on Shutdown >>
+2020-07-28 00:05:39,044 INFO com.mentor.budget.app.shutdown.ShutdownBean [SpringContextShutdownHook] << File content archived successfully >>
+2020-07-28 00:07:29,919 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] Starting BudgetManagerServiceApplication on yudhie with PID 19408 (A:\Code\mentor\Budget-Manager-Service\target\classes started by yudhie in A:\Code\mentor\Budget-Manager-Service)
+2020-07-28 00:07:29,926 DEBUG com.mentor.budget.app.BudgetManagerServiceApplication [main] Running with Spring Boot v2.2.9.RELEASE, Spring v5.2.8.RELEASE
+2020-07-28 00:07:29,930 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] No active profile set, falling back to default profiles: default
+2020-07-28 00:07:35,444 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2020-07-28 00:07:35,471 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-07-28 00:07:35,472 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-07-28 00:07:35,754 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-07-28 00:07:35,754 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5563 ms
+2020-07-28 00:07:37,459 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-28 00:07:38,633 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-28 00:07:38,859 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-28 00:07:38,880 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] Started BudgetManagerServiceApplication in 10.664 seconds (JVM running for 13.009)
+2020-07-28 00:07:39,144 INFO com.mentor.budget.app.BudgetManagerServiceApplication [main] <<BUDGET-MANAGER-SERVICE STARTED>>
+2020-07-28 00:07:39,145 INFO com.mentor.budget.app.shutdown.ShutdownTimerExecutor [main] <<CREATING SHUTDOWN TIMER>>
+2020-07-28 00:09:09,147 WARN com.mentor.budget.app.shutdown.ShutdownTimerTask [ShutDownTimer] <<SHUTTING DOWN>>
+2020-07-28 00:09:09,183 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-28 00:09:09,187 WARN com.mentor.budget.app.shutdown.ShutdownBean [SpringContextShutdownHook] << Archiving file contents on Shutdown >>
+2020-07-28 00:09:09,196 INFO com.mentor.budget.app.shutdown.ShutdownBean [SpringContextShutdownHook] << File content archived successfully >>
