@@ -1,9 +1,6 @@
 package com.mentor.budget.app.shutdown;
 
-import lombok.Value;
 import lombok.extern.slf4j.Slf4j;
-
-import javax.validation.Valid;
 import java.util.Timer;
 
 @Slf4j
