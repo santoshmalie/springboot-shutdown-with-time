@@ -28,7 +28,6 @@ public class BudgetRestExceptionHandler extends ResponseEntityExceptionHandler {
     @ExceptionHandler(SpendException.class)
     public ResponseEntity<Object> handleInternalServerException(
             SpendException ex, WebRequest request) {
-
         Map<String, Object> body = new LinkedHashMap<>();
         body.put("timestamp", LocalDateTime.now());
         body.put("message", "Exception during spend request processing. Please verify request details");
@@ -39,12 +38,11 @@ public class BudgetRestExceptionHandler extends ResponseEntityExceptionHandler {
     @ExceptionHandler(Exception.class)
     public ResponseEntity<Object> handleInternalServerException(
             Exception ex, WebRequest request) {
-
         Map<String, Object> body = new LinkedHashMap<>();
         body.put("timestamp", LocalDateTime.now());
         body.put("message", "Exception in Budget API execution");
         log.error("Error in Budget API execution :: " + ex);
-        return new ResponseEntity<>(body, HttpStatus.INTERNAL_SERVER_ERROR);
+        return new ResponseEntity<>(body, HttpStatus.METHOD_FAILURE);
     }
 
     @Override
@@ -55,7 +53,7 @@ public class BudgetRestExceptionHandler extends ResponseEntityExceptionHandler {
             WebRequest request) {
         log.error("Invalid input parameters :: " + ex);
         String bodyOfResponse = ex.getMessage();
-        return new ResponseEntity("Input parameters are not matching pre-defined criteria", headers, status);
+        return new ResponseEntity("Input parameters are not matching pre-defined contract :: " + bodyOfResponse, headers, HttpStatus.BAD_REQUEST);
     }
 
     @ExceptionHandler(IOException.class)
@@ -66,7 +64,7 @@ public class BudgetRestExceptionHandler extends ResponseEntityExceptionHandler {
             WebRequest request) {
         log.error("File I/O error :: " + ex);
         String bodyOfResponse = ex.getMessage();
-        return new ResponseEntity("Error in File I/O operation", headers, status);
+        return new ResponseEntity("Error in File I/O operation :: " + bodyOfResponse, headers, status);
     }
 
 }

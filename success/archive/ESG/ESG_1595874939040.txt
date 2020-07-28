@@ -1,6 +1,0 @@
-
-SpendRequest(teammateId=111.0, amount=2000.0, description=buy new laptop)
-SpendRequest(teammateId=222.0, amount=2000.0, description=buy new laptop)
-SpendRequest(teammateId=333.0, amount=2000.0, description=buy new laptop)
-SpendRequest(teammateId=444.0, amount=6000.0, description=buy new laptop)
-SpendRequest(teammateId=444.0, amount=6000.0, description=buy new laptop)

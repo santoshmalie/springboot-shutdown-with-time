@@ -13,5 +13,5 @@ import lombok.ToString;
  * SpendResponse ::  Contains the response status Approved/Denied
  */
 public class SpendResponse {
-    private String requestStatus;
+    private String responseStatus;
 }

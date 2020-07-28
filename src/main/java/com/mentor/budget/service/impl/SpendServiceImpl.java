@@ -1,7 +1,8 @@
 package com.mentor.budget.service.impl;
 
+import com.mentor.budget.app.shutdown.ShutdownBean;
 import com.mentor.budget.app.shutdown.ShutdownTimerExecutor;
-import com.mentor.budget.app.shutdown.ShutdownTimerTask;
+import com.mentor.budget.app.utility.FileOperationUtitlity;
 import com.mentor.budget.constants.BudgetConstant;
 import com.mentor.budget.exception.SpendException;
 import com.mentor.budget.model.SpendRequest;
@@ -13,9 +14,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.util.Timer;
 
 @Slf4j
 @Service
@@ -27,49 +25,38 @@ public class SpendServiceImpl implements SpendService {
     @Autowired
     private Project project;
 
+
+
     @Override
     public SpendResponse processSpendRequest(SpendRequest spendRequest) throws SpendException, Exception {
         log.info("Processing spend request. Project details :: " + project);
         SpendResponse spendResponse = new SpendResponse(BudgetConstant.DENIED_STRING);
-        File file = new File("success" + File.separator + project.getName() + ".txt");
-        resetFileContent();
+        File file = new File(BudgetConstant.SUCCESS_FOLDER + File.separator + project.getName() + ".txt");
         try {
             if (spendRequest.getAmount() < project.getBudget()) {
-                project.setBudget(project.getBudget() - spendRequest.getAmount());
-                spendResponse.setRequestStatus(BudgetConstant.APPROVED_STRING);
-                log.debug("Spend request approved. Request Details :: " + spendRequest);
-                persistSpend(spendRequest, file);
-                if (project.getBudget <= 0) {
-                    ShutdownTimerExecutor.shutDownNowTimer();
+                if (project.getBudget() <= BudgetConstant.MINIMUM_BUDGET) {
+                    log.debug("Budget exhausted cannot serve :: " + spendRequest + "Shutdown triggered");
+                    ShutdownBean.immediateShutdown();
+                } else if (spendRequest.getAmount() < project.getBudget()) {
+                    synchronized (file) {
+                        project.setBudget(project.getBudget() - spendRequest.getAmount());
+                        spendResponse.setResponseStatus(BudgetConstant.APPROVED_STRING);
+                        log.debug("Spend request approved. Request Details :: " + spendRequest);
+                        FileOperationUtitlity.persistInFile(spendRequest, file);
+                        ShutdownTimerExecutor.resettingTimer();
+                        log.debug("Updated budget  :: " + project);
+                    }
                 } else {
-                    resettingTimer();
+                    log.debug("Request could not be processed :: " + spendRequest);
+                    throw new SpendException();
                 }
-                log.debug("Updated budget  :: " + project);
-            } else {
-                throw new SpendException();
             }
-        } catch (SpendException e) {
+        } catch (Exception e) {
             throw e;
         }
+        log.debug("Request :: " + spendRequest + "Response :: " +spendResponse);
         return spendResponse;
     }
 
-    private void persistSpend(SpendRequest spendRequest, File file) throws IOException {
-        log.info("persist spend in file");
-        FileWriter fr = new FileWriter(file, true);
-        fr.write("\n" + spendRequest.toString());
-        fr.close();
-    }
 
-    private void resetFileContent() throws IOException {
-        log.info("Reset file");
-        FileWriter fr = new FileWriter(file, false);
-        fr.close();
-    }
-
-    private void resettingTimer() {
-        log.info("Reset shutdown timer");
-        ShutdownTimerExecutor.cancelTimer();
-        ShutdownTimerExecutor.createTimer();
-    }
 }
